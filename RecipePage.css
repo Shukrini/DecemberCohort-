@@ -1,38 +1,75 @@
-body{
-    background-color: rgb(114, 87, 87);
+.main{
+    background-color: grey;
+    width: 75%;
+    margin: auto;
+
 }
 h1{
     text-align: center;
+    color: black;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: bisque;
+    text-decoration: dotted;
+   
 }
-img{
-    border-radius: 40px;
-    width: 85%;
-    height: 25%;
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    background-color: aliceblue;
+    border: 2px;
+   
+}
+
+nav ul li{
+    padding: 10px 12px;
+}
+
+nav ul li a{
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    background-color: beige;
+    
     
 }
-p{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(18, 17, 16);
-    border: 2px solid blanchedalmond;
-    border-radius: 5px;
-    background-color: rgb(129, 129, 52);
-    text-decoration: double;
+nav ul li a:hover{
+      bottom: auto;
+      
 }
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(17, 19, 18);
-}
-.AlltAnnat{
-    background-color: rgb(78, 52, 18);
-    width: 60%;
-    margin-right: 40%;
-    border: 2px solid black;
-    margin-top: -25%;
-}
-.myImage{
-    border: 1px;
-    width: 25%;
-    margin-left: 65%;
+h3{
     text-align: center;
-    margin-top: auto;
+}
+
+#myImage img{
+    width: 75%;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#hurmangör{
+    display: flex;
+    background-color: beige;
+    width: 75%;
+    margin: auto;
+}
+
+#AlltAnnat{
+    display: flex;
+    background-color: burlywood;
+    width: 75%;
+    margin: auto;
+}
+
+#shopping ul li{
+    display: flex;
+    margin: auto;
+    width: 10%;
+    font-size: larger;
+    list-style: circle;
 }
